@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/daria31v/chess-app.git/static/css/main.c8e7cc82.css",
-    "main.js": "/daria31v/chess-app.git/static/js/main.83d9c974.js",
-    "static/js/787.497f1025.chunk.js": "/daria31v/chess-app.git/static/js/787.497f1025.chunk.js",
-    "static/media/king-white.png": "/daria31v/chess-app.git/static/media/king-white.c3024fd628bba4d61874.png",
-    "static/media/queen-white.png": "/daria31v/chess-app.git/static/media/queen-white.21b6b1fb18868a2f1410.png",
-    "static/media/bishop-white.png": "/daria31v/chess-app.git/static/media/bishop-white.5067604d91e7a2755e20.png",
-    "static/media/knight-white.png": "/daria31v/chess-app.git/static/media/knight-white.cb581af42b6182bfb4df.png",
-    "static/media/king-black.png": "/daria31v/chess-app.git/static/media/king-black.7a032d7d70494fa7be26.png",
-    "static/media/castle-white.png": "/daria31v/chess-app.git/static/media/castle-white.3def8f04e8d222975097.png",
-    "static/media/queen-black.png": "/daria31v/chess-app.git/static/media/queen-black.b77925b067c7c01b22d2.png",
-    "static/media/bishop-black.png": "/daria31v/chess-app.git/static/media/bishop-black.6a2b52eae04e342b774f.png",
-    "static/media/pawn-white.png": "/daria31v/chess-app.git/static/media/pawn-white.cee470bb8f9a9d561f4e.png",
-    "index.html": "/daria31v/chess-app.git/index.html",
-    "main.c8e7cc82.css.map": "/daria31v/chess-app.git/static/css/main.c8e7cc82.css.map",
-    "main.83d9c974.js.map": "/daria31v/chess-app.git/static/js/main.83d9c974.js.map",
-    "787.497f1025.chunk.js.map": "/daria31v/chess-app.git/static/js/787.497f1025.chunk.js.map"
+    "main.css": "/chess-app/static/css/main.c8e7cc82.css",
+    "main.js": "/chess-app/static/js/main.0fce87c1.js",
+    "static/js/787.497f1025.chunk.js": "/chess-app/static/js/787.497f1025.chunk.js",
+    "static/media/king-white.png": "/chess-app/static/media/king-white.c3024fd628bba4d61874.png",
+    "static/media/queen-white.png": "/chess-app/static/media/queen-white.21b6b1fb18868a2f1410.png",
+    "static/media/bishop-white.png": "/chess-app/static/media/bishop-white.5067604d91e7a2755e20.png",
+    "static/media/knight-white.png": "/chess-app/static/media/knight-white.cb581af42b6182bfb4df.png",
+    "static/media/king-black.png": "/chess-app/static/media/king-black.7a032d7d70494fa7be26.png",
+    "static/media/castle-white.png": "/chess-app/static/media/castle-white.3def8f04e8d222975097.png",
+    "static/media/queen-black.png": "/chess-app/static/media/queen-black.b77925b067c7c01b22d2.png",
+    "static/media/bishop-black.png": "/chess-app/static/media/bishop-black.6a2b52eae04e342b774f.png",
+    "static/media/pawn-white.png": "/chess-app/static/media/pawn-white.cee470bb8f9a9d561f4e.png",
+    "index.html": "/chess-app/index.html",
+    "main.c8e7cc82.css.map": "/chess-app/static/css/main.c8e7cc82.css.map",
+    "main.0fce87c1.js.map": "/chess-app/static/js/main.0fce87c1.js.map",
+    "787.497f1025.chunk.js.map": "/chess-app/static/js/787.497f1025.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8e7cc82.css",
-    "static/js/main.83d9c974.js"
+    "static/js/main.0fce87c1.js"
   ]
 }
