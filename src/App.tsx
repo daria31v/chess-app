@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import BoardComponent from "./components/BoardComponent";
@@ -16,7 +17,7 @@ const App = () => {
   useEffect(() => {
     restart();
     setCurrentPlayer(whitePlayer);
-  }, []);
+  }, [whitePlayer]);
 
   function restart() {
     const newBoard = new Board();
@@ -31,26 +32,38 @@ const App = () => {
     );
   }
 
-  
   return (
     <>
-    <h3>Current player: {currentPlayer?.color}</h3>
-     <div className="App">
-      <Timer restart={restart} currentPlayer={currentPlayer}/>
-      <BoardComponent
-        board={board}
-        setBoard={setBoard}
-        currentPlayer={currentPlayer}
-        swapPlayer={swapPlayer}
-      />
-      <div>
-        <LostFiguresComponent title="BlackFigures" figures={board.lostBlackFigures}/>
-        <LostFiguresComponent title="WhiteFigures" figures={board.lostWhiteFigures}/>
-      </div>
-      
-    </div>
+      <section className="main-section">
+        <div className="container-title">
+          <h1>CHESS</h1>
+          <h2 className="title">Current player: {currentPlayer?.color}</h2>
+        </div>
+
+        <div className="App">
+          <div>
+            <Timer restart={restart} currentPlayer={currentPlayer} />
+          </div>
+          
+          <BoardComponent
+            board={board}
+            setBoard={setBoard}
+            currentPlayer={currentPlayer}
+            swapPlayer={swapPlayer}
+          />
+          <div className="container-lost-figures">
+            <LostFiguresComponent
+              title="Black Figures"
+              figures={board.lostBlackFigures}
+            />
+            <LostFiguresComponent
+              title="White Figures"
+              figures={board.lostWhiteFigures}
+            />
+          </div>
+        </div>
+      </section>
     </>
-   
   );
 };
 

@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, {FC, useState, useRef, useEffect} from "react";
 import { Player } from "../models/Player";
 import { Colors } from "../models/Colors";
@@ -42,10 +43,10 @@ const Timer: FC<TimeProps> = ({currentPlayer, restart}) => {
 
     return (
         <div>
-         <button onClick={handleRestart}>Restart game</button>
+         <button className="btn-restart" onClick={handleRestart}>Restart game</button>
 
-        <h2>White = {whiteTime}</h2>
-        <h2>Black = {blackTime}</h2>
+        <h3>Time for White = {whiteTime}</h3>
+        <h3>Time for Black = {blackTime}</h3>
         </div>
     );
 };

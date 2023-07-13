@@ -1,16 +1,37 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .App {
-  width: 100vw;
-  height: 100vw;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  gap: 30px;
+  /* background-image: url(./assets/wood.jpg); */
 }
+
+.main-section {
+  margin: 20px;
+  padding: 10px;
+
+  /* @media screen && (min-width: 768px) {    
+  };
+
+  @media screen && (min-width: 1280px) {    
+  } */
+}
+
+.container-title {
+  text-align: center;
+  font-size: 31px;
+  color: aliceblue;
+}
+
+.title {
+  font-weight: 500;
+}
+
 .board {
   width: calc(64px * 8);
   height: calc (64px * 8);
@@ -38,7 +59,7 @@
 }
 
 .white {
-  background-color: rgb(38, 97, 25);
+  background-color: rgb(18, 49, 11);
 }
 
 .selected {
@@ -52,9 +73,39 @@
   background-color: burlywood;
 }
 
-.lost{
+.lost {
   height: calc(50vh-60px);
   padding: 30px;
-  margin-left: 50px;
-  background-color: lightgray;
+  background-color: rgb(235, 196, 40);
+  border-radius: 10%;
+  border: 1px solid rgb(18, 49, 11);
+}
+
+.lost-figure {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.container-lost-figures {
+  width: 250px;
+  height: 100%;
+  text-align: center;
+  :first-child {
+    margin-bottom: 20px;
+  }
+}
+
+.btn-restart {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 35px;
+  background-color: rgb(235, 196, 40);
+  border-radius: 10%;
+  border: 1px solid rgb(18, 49, 11);
+  cursor: pointer;
+  font-size: 16px;
 }
