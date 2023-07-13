@@ -1,9 +1,9 @@
 # Chess
+*React + TypeScript*
+
 *(the project is under development)*
 
 Welcome to the Chess app! This app gives you the opportunity to play the classic board game of chess on your device. This app offers you the opportunity to enjoy strategic challenges and intellectual battles in a game with your opponent.
-
-
 
 ## Getting Started with Create React App
 
